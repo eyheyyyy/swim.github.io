@@ -1,0 +1,142 @@
+body {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+#shark{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left: 100px; top: 400px;}
+    20% {left: 400px; top: 400px;}
+    40% {left: 900px; top: 300px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 1200px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver1{
+    left: 300px;
+    top: 800px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver1{
+    0% {left: 200px; top: 400px;}
+    20% {left: 400px; top: 400px;}
+    40% {left: 800px; top: 300px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 1200px; top: 100px;}
+    80% {left: 1200px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver2{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2{
+    0% {left: 100px; top: 400px;}
+    20% {left: 300px; top: 400px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 1200px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver3{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver3{
+    0% {left: 100px; top: 600px;}
+    20% {left: 300px; top: 500px;}
+    40% {left: 500px; top: 500px;}
+    50% {left: 1200px; top: 300px;}
+    60% {left: 1200px; top: 500px;}
+    80% {left: 500px; top: 600px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#turtle{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: turtle;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle{
+    0% {left: 400px; top: 400px;}
+    20% {left: 600px; top: 400px;}
+    40% {left: 800px; top: 300px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 1000px; top: 100px;}
+    80% {left: 800px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#faint{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: faint;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes faint{
+    0% {left: 100px; top: 200px;}
+    20% {left: 300px; top: 200px;}
+    40% {left: 500px; top: 400px;}
+    50% {left: 1200px; top: 400px;}
+    60% {left: 1200px; top: 300px;}
+    80% {left: 500px; top: 300px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#goldfish{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: goldfish;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes goldfish{
+    0% {left: 100px; top: 400px;}
+    20% {left: 300px; top: 400px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 1200px; top: 50px;}
+    60% {left: 1200px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+.audi{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
